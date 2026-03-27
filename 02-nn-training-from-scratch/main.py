@@ -85,24 +85,24 @@ print(output_values)
 
 #===================== We plot the untrained Neural Network =================================================
 
-sns.set_theme(style="whitegrid")
-sns.scatterplot(x=input_doses,
-                y=output_values.detach().numpy(),
-                color="green",
-                s=200)
+# sns.set_theme(style="whitegrid")
+# sns.scatterplot(x=input_doses,
+#                 y=output_values.detach().numpy(),
+#                 color="green",
+#                 s=200)
 
-sns.lineplot(x=input_doses,
-             y=output_values.detach().numpy(),
-             color="green",
-             linewidth=2.5)
+# sns.lineplot(x=input_doses,
+#              y=output_values.detach().numpy(),
+#              color="green",
+#              linewidth=2.5)
 
-sns.scatterplot(x=training_inputs,
-                y=training_label,
-                color="orange",
-                s=200)
+# sns.scatterplot(x=training_inputs,
+#                 y=training_label,
+#                 color="orange",
+#                 s=200)
 
-plt.xlabel("Dose")
-plt.ylabel("Effectiveness")
+# plt.xlabel("Dose")
+# plt.ylabel("Effectiveness")
 # plt.show()
 
 #==================== Training the Weights and Biases in the Neural Network ==========================
