@@ -15,5 +15,5 @@ Using PyTorch's built-in `nn.LSTM` for sequence classification.
 
 ## Run
 ```bash
-python lstm_pytorch.py
+jupyter notebook pytorch_lstm.ipynb
 tensorboard --logdir=lightning_logs/

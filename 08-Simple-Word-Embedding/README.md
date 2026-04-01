@@ -20,4 +20,4 @@ A simple neural network that learns 2D word embeddings from one-hot encoded inpu
 
 ## Run
 ```bash
-python word_embeddings.py
+jupyter notebook word_embedding.ipynb

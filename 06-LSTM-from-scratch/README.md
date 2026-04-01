@@ -22,6 +22,6 @@ A manual implementation of an LSTM (Long Short-Term Memory) network from scratch
 
 ## Run
 ```bash
-python lstm_from_scratch.py
+jupyter notebook lstm_from_scratch.ipynb
 # For TensorBoard:
 tensorboard --logdir=lightning_logs/

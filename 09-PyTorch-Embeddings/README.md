@@ -12,4 +12,4 @@ Word embeddings using PyTorch's nn.Linear, based on the StatQuest Neural Network
 
 ## Run
 ```bash
-python word_embeddings.py
+jupyter notebook pytorch_embeddings.ipynb

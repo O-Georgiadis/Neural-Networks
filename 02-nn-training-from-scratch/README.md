@@ -8,3 +8,8 @@ Built following The StatQuest Illustrated Guide to Neural Networks and AI book.
 - Backpropagation
 - SGD optimization
 - PyTorch Lightning
+
+## Run
+```bash
+pip install -r requirements.txt
+python main.py

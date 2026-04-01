@@ -18,4 +18,4 @@ English to Spanish translation using Seq2Seq (Encoder-Decoder) architecture, bas
 
 ## Run
 ```bash
-python seq2seq.py
+jupyter notebook seq2seq_translation.ipynb
